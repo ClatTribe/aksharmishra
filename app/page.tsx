@@ -1,6 +1,6 @@
 "use client";
 import React, { useState, useEffect, useRef } from 'react';
-import { Menu, X, Github, Linkedin, Mail, Target, Briefcase, Heart, Users, Award, BookOpen, TrendingUp, Globe, Medal } from 'lucide-react';
+import { Menu, X, Github, Linkedin, Mail, Target, Briefcase, Heart, Users, Award, BookOpen, TrendingUp, Globe, Medal, Video } from 'lucide-react';
 
 const Portfolio = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -182,7 +182,7 @@ const Portfolio = () => {
   return (
     <div className="min-h-screen bg-white">
       {/* Navigation */}
-      <nav className="fixed top-0 w-full bg-white shadow-md z-50">
+      <nav className="fixed top-0 w-full bg-white shadow-md z-50 ">
         <div className="container mx-auto px-6 py-4">
           <div className="flex justify-between items-center">
             <h1 className="text-2xl font-bold text-white">
@@ -302,8 +302,9 @@ const Portfolio = () => {
 
       {/* About Me Section */}
       <section id="about" className="py-20 bg-white">
-        <div className="container mx-auto px-6 max-w-6xl">
-          <h2 className="text-4xl font-bold text-center mb-12">About Me</h2>
+        <div className="container mx-auto px-6 max-w-6xl"> 
+          <h2 className="text-4xl font-bold text-center mb-5">About Me</h2>
+          <p className="text-xl font-semibold text-center mb-5 text-gray-500">High School Student | Entrepreneur | Rifle Shooter</p>
           <div className="flex flex-col lg:flex-row items-center lg:items-start gap-8 lg:gap-12 mx-auto">
             <div className="w-full lg:w-1/3 flex justify-center lg:justify-start">
               <img 
@@ -373,78 +374,105 @@ const Portfolio = () => {
       </section>
 
       {/* Extracurricular Achievements & Vision */}
-      <section className="py-20 bg-gray-50">
+       <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-6 max-w-6xl">
           <div className="grid md:grid-cols-2 gap-12">
             {/* Extracurricular Achievements */}
-            <div>
-              <h2 className="text-4xl font-bold mb-8">Extracurricular Achievements</h2>
-              <div className="space-y-4">
-                <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition">
-                  <div className="flex items-start gap-4">
-                    <div className="w-12 h-12 bg-teal-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                      <Target className="w-6 h-6 text-teal-600" />
-                    </div>
-                    <div>
-                      <h3 className="font-bold text-lg mb-2">National-level Rifle Shooting Medals</h3>
-                      <p className="text-gray-600">Achieved excellence in competitive shooting at the national level</p>
-                    </div>
-                  </div>
-                </div>
-                
-                <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition">
-                  <div className="flex items-start gap-4">
-                    <div className="w-12 h-12 bg-teal-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                      <Heart className="w-6 h-6 text-teal-600" />
-                    </div>
-                    <div>
-                      <h3 className="font-bold text-lg mb-2">Yoga Practitioner</h3>
-                      <p className="text-gray-600">Certified yoga practitioner promoting wellness and mindfulness</p>
-                    </div>
-                  </div>
-                </div>
-                
-                <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition">
-                  <div className="flex items-start gap-4">
-                    <div className="w-12 h-12 bg-teal-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                      <Briefcase className="w-6 h-6 text-teal-600" />
-                    </div>
-                    <div>
-                      <h3 className="font-bold text-lg mb-2">Successful Food Business Entrepreneur</h3>
-                      <p className="text-gray-600">Founded and managed a thriving food venture</p>
-                    </div>
-                  </div>
-                </div>
-                
-                <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition">
-                  <div className="flex items-start gap-4">
-                    <div className="w-12 h-12 bg-teal-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                      <Users className="w-6 h-6 text-teal-600" />
-                    </div>
-                    <div>
-                      <h3 className="font-bold text-lg mb-2">Community Volunteer</h3>
-                      <p className="text-gray-600">Worked with Samajwadi Party, YATAN NGO, and Prana Wellness Institute</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
+            <div className="bg-white p-8 rounded-lg shadow-md">
+              <h2 className="text-3xl font-bold mb-6 text-gray-800">Extracurricular Achievements</h2>
+              <ul className="space-y-2">
+                <li className="flex items-start gap-2">
+                  <span className="text-gray-800 mt-1">•</span>
+                  <span className="text-gray-700">National-level rifle shooting medals</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-gray-800 mt-1">•</span>
+                  <span className="text-gray-700">Yoga practitioner</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-gray-800 mt-1">•</span>
+                  <span className="text-gray-700">Successful food business entrepreneur</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-gray-800 mt-1">•</span>
+                  <span className="text-gray-700">Worked with Samajwadi Party, YATAN NGO, and Prana Wellness Institute</span>
+                </li>
+              </ul>
             </div>
 
             {/* My Vision */}
-            <div>
-              <h2 className="text-4xl font-bold mb-8">My Vision</h2>
-              <div className="bg-gradient-to-br from-teal-500 to-blue-500 p-8 rounded-lg shadow-xl text-white">
-                <div className="mb-6">
-                  <Globe className="w-16 h-16 mb-4" />
-                </div>
-                <p className="text-xl leading-relaxed">
-                  "I aspire to pursue undergraduate studies in Business or Economics, combining my entrepreneurial spirit and analytical skills to create impactful ventures."
-                </p>
-              </div>
+            <div className="bg-white p-8 rounded-lg shadow-md">
+              <h2 className="text-3xl font-bold mb-6 text-gray-800">My Vision</h2>
+              <p className="text-gray-700 leading-relaxed">
+                "I aspire to pursue undergraduate studies in Business or Economics, combining my entrepreneurial spirit and analytical skills to create impactful ventures."
+              </p>
+            </div>
+          </div>
+
+          {/* Photos under Extracurricular & Vision */}
+          <div className="mt-12 grid md:grid-cols-3 gap-6">
+            <div className="bg-white rounded-lg overflow-hidden shadow-md">
+              <img 
+                src="https://res.cloudinary.com/daetdadtt/image/upload/v1762800970/d365d13c-02d4-4cc8-a3a1-582537903509.png" 
+                alt="Extracurricular 1" 
+                className="w-full h-120 object-cover"
+              />
+            </div>
+            <div className="bg-white rounded-lg overflow-hidden shadow-md">
+              <img 
+                src="https://res.cloudinary.com/daetdadtt/image/upload/v1762850916/c1b0553c-05fc-4cdc-904a-082a6b9b2425.png" 
+                alt="Extracurricular 2" 
+                className="w-full h-120 object-cover"
+              />
+            </div>
+            <div className="bg-white rounded-lg overflow-hidden shadow-md">
+              <img 
+                src="https://res.cloudinary.com/daetdadtt/image/upload/v1762850901/7529ad71-e0be-4772-a848-e34bcd9776b0.png" 
+                alt="Extracurricular 3" 
+                className="w-full h-120 object-cover"
+              />
             </div>
           </div>
         </div>
       </section>
+
+      <section className="py-20">
+      <div className="container mx-auto px-6 max-w-6xl">
+        <div className="text-center mb-12">
+          <h2 className="text-4xl font-bold text-teal-600">Media Features</h2>
+        </div>
+        
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          {/* Image 1 */}
+          <div className="rounded-lg overflow-hidden">
+            <img 
+              src="https://res.cloudinary.com/daetdadtt/image/upload/v1762851396/685a1cf7-4441-4784-b6a8-c36f7469a27a.png" 
+              alt="Media Feature 1" 
+              className="w-full h-auto object-cover"
+            />
+          </div>
+
+          {/* Image 2 */}
+          <div className="rounded-lg overflow-hidden">
+            <img 
+              src="https://res.cloudinary.com/daetdadtt/image/upload/v1762851413/44184c84-d820-4f39-9dbc-ee8911bb5a25.png" 
+              alt="Media Feature 2" 
+              className="w-full h-auto object-contain"
+            />
+          </div>
+
+          {/* Image 3 */}
+          <div className="rounded-lg overflow-hidden">
+            <img 
+              src="https://res.cloudinary.com/daetdadtt/image/upload/v1762851421/d75e128c-0ab6-4b32-8075-9bdb9d34a0b7.png" 
+              alt="Media Feature 3" 
+              className="w-full h-auto object-contain"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
 
       {/* Community Work */}
       <section className="py-20 bg-white">
@@ -664,46 +692,46 @@ const Portfolio = () => {
       </section>
 
       {/* Future Goals & Ambitions - New Section */}
-      <section className="py-20 bg-[#00A99D]">
-        <div className="container mx-auto px-6 max-w-6xl">
-          <h2 className="text-4xl font-bold text-white mb-12">Future Goals & Ambitions</h2>
-          
-          <div className="space-y-8">
-            <div className="flex items-start gap-6">
-              <div className="w-16 h-16 bg-white bg-opacity-20 rounded-lg flex items-center justify-center flex-shrink-0">
-                <Award className="w-8 h-8 text-white" />
-              </div>
-              <div>
-                <p className="text-2xl text-white leading-relaxed">
-                  Pursue undergraduate studies in Business or Economics in the USA, UK, or globally.
-                </p>
-              </div>
+      <section className="py-12 bg-[#00A99D]">
+      <div className="container mx-auto px-6 max-w-6xl">
+        <h2 className="text-4xl font-bold text-white mb-6">Future Goals & Ambitions</h2>
+        
+        <div className="space-y-4">
+          <div className="flex items-start gap-4">
+            <div className="w-12 h-12 bg-white bg-opacity-20 rounded-lg flex items-center justify-center flex-shrink-0">
+              <Award className="w-6 h-6 text-white" />
             </div>
-
-            <div className="flex items-start gap-6">
-              <div className="w-16 h-16 bg-white bg-opacity-20 rounded-lg flex items-center justify-center flex-shrink-0">
-                <TrendingUp className="w-8 h-8 text-white" />
-              </div>
-              <div>
-                <p className="text-2xl text-white leading-relaxed">
-                  Build scalable ventures.
-                </p>
-              </div>
+            <div>
+              <p className="text-xl text-white leading-relaxed">
+                Pursue undergraduate studies in Business or Economics in the USA, UK, or globally.
+              </p>
             </div>
+          </div>
 
-            <div className="flex items-start gap-6">
-              <div className="w-16 h-16 bg-white bg-opacity-20 rounded-lg flex items-center justify-center flex-shrink-0">
-                <Globe className="w-8 h-8 text-white" />
-              </div>
-              <div>
-                <p className="text-2xl text-white leading-relaxed">
-                  Continue impactful community work.
-                </p>
-              </div>
+          <div className="flex items-start gap-4">
+            <div className="w-12 h-12 bg-white bg-opacity-20 rounded-lg flex items-center justify-center flex-shrink-0">
+              <TrendingUp className="w-6 h-6 text-white" />
+            </div>
+            <div>
+              <p className="text-xl text-white leading-relaxed">
+                Build scalable ventures.
+              </p>
+            </div>
+          </div>
+
+          <div className="flex items-start gap-4">
+            <div className="w-12 h-12 bg-white bg-opacity-20 rounded-lg flex items-center justify-center flex-shrink-0">
+              <Globe className="w-6 h-6 text-white" />
+            </div>
+            <div>
+              <p className="text-xl text-white leading-relaxed">
+                Continue impactful community work.
+              </p>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
       {/* Gallery Section */}
       <section className="py-20 bg-gray-50">
