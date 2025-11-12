@@ -153,30 +153,30 @@ const Portfolio = () => {
 
   const galleryImages = [
     "https://res.cloudinary.com/daetdadtt/image/upload/v1762800970/d365d13c-02d4-4cc8-a3a1-582537903509.png",
-    "https://res.cloudinary.com/daetdadtt/image/upload/v1762800970/d365d13c-02d4-4cc8-a3a1-582537903509.png",
-    "https://res.cloudinary.com/daetdadtt/image/upload/v1762800970/d365d13c-02d4-4cc8-a3a1-582537903509.png",
-    "https://res.cloudinary.com/daetdadtt/image/upload/v1762800970/d365d13c-02d4-4cc8-a3a1-582537903509.png",
-    "https://res.cloudinary.com/daetdadtt/image/upload/v1762800970/d365d13c-02d4-4cc8-a3a1-582537903509.png",
-    "https://res.cloudinary.com/daetdadtt/image/upload/v1762800970/d365d13c-02d4-4cc8-a3a1-582537903509.png",
-    "https://res.cloudinary.com/daetdadtt/image/upload/v1762800970/d365d13c-02d4-4cc8-a3a1-582537903509.png",
-    "https://res.cloudinary.com/daetdadtt/image/upload/v1762800970/d365d13c-02d4-4cc8-a3a1-582537903509.png",
-    "https://res.cloudinary.com/daetdadtt/image/upload/v1762800970/d365d13c-02d4-4cc8-a3a1-582537903509.png",
-    "https://res.cloudinary.com/daetdadtt/image/upload/v1762800970/d365d13c-02d4-4cc8-a3a1-582537903509.png",
-    "https://res.cloudinary.com/daetdadtt/image/upload/v1762800970/d365d13c-02d4-4cc8-a3a1-582537903509.png",
-    "https://res.cloudinary.com/daetdadtt/image/upload/v1762800970/d365d13c-02d4-4cc8-a3a1-582537903509.png",
-    "https://res.cloudinary.com/daetdadtt/image/upload/v1762800970/d365d13c-02d4-4cc8-a3a1-582537903509.png",
-    "https://res.cloudinary.com/daetdadtt/image/upload/v1762800970/d365d13c-02d4-4cc8-a3a1-582537903509.png",
-    "https://res.cloudinary.com/daetdadtt/image/upload/v1762800970/d365d13c-02d4-4cc8-a3a1-582537903509.png",
-    "https://res.cloudinary.com/daetdadtt/image/upload/v1762800970/d365d13c-02d4-4cc8-a3a1-582537903509.png",
-    "https://res.cloudinary.com/daetdadtt/image/upload/v1762800970/d365d13c-02d4-4cc8-a3a1-582537903509.png",
-    "https://res.cloudinary.com/daetdadtt/image/upload/v1762800970/d365d13c-02d4-4cc8-a3a1-582537903509.png",
-    "https://res.cloudinary.com/daetdadtt/image/upload/v1762800970/d365d13c-02d4-4cc8-a3a1-582537903509.png",
-    "https://res.cloudinary.com/daetdadtt/image/upload/v1762800970/d365d13c-02d4-4cc8-a3a1-582537903509.png",
-    "https://res.cloudinary.com/daetdadtt/image/upload/v1762800970/d365d13c-02d4-4cc8-a3a1-582537903509.png",
-    "https://res.cloudinary.com/daetdadtt/image/upload/v1762800970/d365d13c-02d4-4cc8-a3a1-582537903509.png",
-    "https://res.cloudinary.com/daetdadtt/image/upload/v1762800970/d365d13c-02d4-4cc8-a3a1-582537903509.png",
-    "https://res.cloudinary.com/daetdadtt/image/upload/v1762800970/d365d13c-02d4-4cc8-a3a1-582537903509.png",
-    "https://res.cloudinary.com/daetdadtt/image/upload/v1762800970/d365d13c-02d4-4cc8-a3a1-582537903509.png"
+    "https://res.cloudinary.com/daetdadtt/image/upload/v1762927396/WhatsApp_Image_2025-11-10_at_16.17.21_1_rwkosc.jpg",
+    "https://res.cloudinary.com/daetdadtt/image/upload/v1762927396/WhatsApp_Image_2025-11-10_at_16.17.26_2_nchdqh.jpg",
+    "https://res.cloudinary.com/daetdadtt/image/upload/v1762927397/WhatsApp_Image_2025-11-10_at_16.17.22_2_x2o05r.jpg",
+    "https://res.cloudinary.com/daetdadtt/image/upload/v1762927399/WhatsApp_Image_2025-11-10_at_16.17.38_2_wych4w.jpg",
+    "https://res.cloudinary.com/daetdadtt/image/upload/v1762927399/WhatsApp_Image_2025-11-10_at_16.17.41_1_jdzwv6.jpg",
+    "https://res.cloudinary.com/daetdadtt/image/upload/v1762927397/WhatsApp_Image_2025-11-10_at_16.17.25_dpkv15.jpg",
+    "https://res.cloudinary.com/daetdadtt/image/upload/v1762927398/WhatsApp_Image_2025-11-10_at_16.17.30_1_uxgwlr.jpg",
+    "https://res.cloudinary.com/daetdadtt/image/upload/v1762927398/WhatsApp_Image_2025-11-10_at_16.17.28_2_lzo77j.jpg",
+    "https://res.cloudinary.com/daetdadtt/image/upload/v1762927398/WhatsApp_Image_2025-11-10_at_16.17.32_cuwloa.jpg",
+    "https://res.cloudinary.com/daetdadtt/image/upload/v1762927750/WhatsApp_Image_2025-11-10_at_16.17.30_2_ltcuqr.jpg",
+    "https://res.cloudinary.com/daetdadtt/image/upload/v1762927400/WhatsApp_Image_2025-11-10_at_16.17.43_1_em6sxb.jpg",
+    "https://res.cloudinary.com/daetdadtt/image/upload/v1762927398/WhatsApp_Image_2025-11-10_at_16.17.34_lmgwmi.jpg",
+    "https://res.cloudinary.com/daetdadtt/image/upload/v1762927397/WhatsApp_Image_2025-11-10_at_16.17.27_1_l5acyx.jpg",
+    "https://res.cloudinary.com/daetdadtt/image/upload/v1762927399/WhatsApp_Image_2025-11-10_at_16.17.40_ncb4on.jpg",
+    "https://res.cloudinary.com/daetdadtt/image/upload/v1762927399/WhatsApp_Image_2025-11-10_at_16.17.43_kifd7h.jpg",
+    "https://res.cloudinary.com/daetdadtt/image/upload/v1762927399/WhatsApp_Image_2025-11-10_at_16.17.42_2_xxil78.jpg",
+    "https://res.cloudinary.com/daetdadtt/image/upload/v1762927399/WhatsApp_Image_2025-11-10_at_16.17.44_2_wowddl.jpg",
+    "https://res.cloudinary.com/daetdadtt/image/upload/v1762927398/WhatsApp_Image_2025-11-10_at_16.17.31_r0rx5e.jpg",
+    "https://res.cloudinary.com/daetdadtt/image/upload/v1762927399/WhatsApp_Image_2025-11-10_at_16.17.43_kifd7h.jpg",
+    // "https://res.cloudinary.com/daetdadtt/image/upload/v1762800970/d365d13c-02d4-4cc8-a3a1-582537903509.png",
+    // "https://res.cloudinary.com/daetdadtt/image/upload/v1762800970/d365d13c-02d4-4cc8-a3a1-582537903509.png",
+    // "https://res.cloudinary.com/daetdadtt/image/upload/v1762800970/d365d13c-02d4-4cc8-a3a1-582537903509.png",
+    // "https://res.cloudinary.com/daetdadtt/image/upload/v1762800970/d365d13c-02d4-4cc8-a3a1-582537903509.png",
+    // "https://res.cloudinary.com/daetdadtt/image/upload/v1762800970/d365d13c-02d4-4cc8-a3a1-582537903509.png"
   ];
 
   return (
@@ -754,7 +754,7 @@ const Portfolio = () => {
       </section>
 
       {/* Blog Section */}
-      <section id="blog" className="py-20 bg-white">
+      {/* <section id="blog" className="py-20 bg-white">
         <div className="container mx-auto px-6 max-w-6xl">
           <h2 className="text-4xl font-bold text-center mb-4">Blog</h2>
           <p className="text-xl text-center text-gray-600 mb-12">My Reflections & Insights</p>
@@ -774,7 +774,7 @@ const Portfolio = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Contact Section */}
       <section id="contact" className="py-20 bg-gray-50">
