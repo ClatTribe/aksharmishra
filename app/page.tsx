@@ -69,13 +69,13 @@ const Portfolio = () => {
   };
 
   const skills = [
+    { name: 'Shooting (Rifle)', percentage: 95 },
     { name: 'Leadership', percentage: 90 },
     { name: 'Team Management', percentage: 85 },
+    { name: 'Food Entrepreneurship', percentage: 85 },
     { name: 'Public Speaking', percentage: 80 },
     { name: 'Research', percentage: 75 },
-    { name: 'Data Analysis', percentage: 70 },
-    { name: 'Food Entrepreneurship', percentage: 85 },
-    { name: 'Shooting (Rifle)', percentage: 95 }
+    { name: 'Data Analysis', percentage: 70 }
   ];
 
   const academicScores = [
