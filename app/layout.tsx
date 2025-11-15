@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Akshar Mishra",
-  description: "Creative Designer & Developer",
+  description: "STUDENT LEADER • FOOD ENTREPRENEUR • SHOOTER & ASPIRING BUSINESS PROFESSIONAL",
 };
 
 export default function RootLayout({
